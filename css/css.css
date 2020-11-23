@@ -1,0 +1,178 @@
+:root {
+  --prymary-text-color: #757575;
+  --prymary-bg-color: #e5e5e5;
+  --minor-bg-color: #f5f4fa;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --black-text: #000000;
+  --white-text: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--prymary-text-color);
+  font-family: Roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*Колір основного тексту: color:#757575; */
+/*Колір втооринного тексту:сolor:  #212121;*/
+/* Чорний лого:#000000;білий лого:color: #FFFFFF; */
+/* Акцент-синій #2196F3;*/
+/*Вторичний колір фону: #E5E5E5*/
+
+/*Стилізація лого- logo*/
+.logo-accent {
+  color: var(--accent-color);
+  font-family: Raleway, cursive;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-studio {
+  color: var(--black-text);
+  font-family: Raleway, cursive;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+/*Стилізація навігації по сайту - nav-site*/
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/*Стилызація навігації адресу - contacts*/
+.contacts .link {
+  color: var(--prymary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/*Hero*/
+.hero-title {
+  color: red /*var(--white-text)*/;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero .button {
+  color: var(--white-text);
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+}
+/* Стилізація Преимуществ(advantages)*/
+.section-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.advantages .text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.advantages .title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+/* team*/
+.team .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team .text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Стилізація підвалу(footer)*/
+.logo-white {
+  color: brown /* var(--white-text)*/;
+  font-family: Raleway, cursive;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.addres-text {
+  color: tomato /*var{var(--white-text)}*/;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer .link {
+  color: red; /* rgba(255, 255, 255, 0.6);*/
+  font-size: 14px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* portfolio*/
+
+.filter {
+  font-family: inherit;
+  color: var(--title-text-color);
+  background-color: var(--prymary-bg-color);
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.title-name {
+  color: var(--title-text-color);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-text {
+  color: var(--prymary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
