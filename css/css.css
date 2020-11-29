@@ -37,7 +37,19 @@ img {
   display: block;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1200px;
+  outline: solid tomato;
+}
+
 .header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -47,19 +59,62 @@ img {
   align-items: center;
 }
 
-.contacts.list {
-  display: flex;
-  margin-right: auto;
+.navigation-menu:not(:last-child) {
+  margin-right: 93px;
 }
 
-.container {
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav.list {
+  display: flex;
+}
+
+.contacts.list {
+  display: flex;
   margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 0px;
-  width: 1170px;
-  outline: solid tomato;
+}
+
+.section.advant {
+  display: flex;
+}
+.advantages-list-wraper {
+  display: flex;
+}
+
+.advantages-item:not(:last-child) {
+  padding-right: 30px;
+}
+
+.work-list {
+  display: flex;
+}
+
+.work-list .page {
+  padding-right: 30px;
+}
+
+.work .section-title {
+  padding-bottom: 50px;
+}
+
+.section.work {
+  margin-bottom: 94px;
+}
+
+.team.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-items {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-items .section-title {
+  margin-bottom: 50px;
 }
 
 .list {
@@ -96,6 +151,7 @@ a {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  margin-right: 90px;
 }
 .logo-accent {
   color: var(--accent-color);
