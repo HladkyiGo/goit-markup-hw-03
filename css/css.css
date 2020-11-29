@@ -113,8 +113,27 @@ img {
   padding-bottom: 94px;
 }
 
+.team-items .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team-items .text {
+  margin-bottom: 30px;
+}
+.team-item {
+  text-align: center;
+  outline: solid tomato;
+}
+
 .team-items .section-title {
   margin-bottom: 50px;
+}
+.addres-text {
+  margin-bottom: 9px;
+}
+
+.footer-addres:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .list {
@@ -145,13 +164,23 @@ a {
 /*Вторичний колір фону: #E5E5E5*/
 
 /*Стилізація лого- logo*/
-.logo {
+.header .logo {
   font-family: Raleway, cursive;
   letter-spacing: 0.03em;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   margin-right: 90px;
+}
+.footer .logo {
+  font-family: Raleway, cursive;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
 .logo-accent {
   color: var(--accent-color);
